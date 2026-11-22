@@ -1,0 +1,20 @@
+#eb{position:fixed;z-index:95;bottom:calc(16px + env(safe-area-inset-bottom,0px));inset-inline-start:16px;display:flex;gap:8px;align-items:center;padding:8px 10px;border-radius:40px;color:#fff;max-width:calc(100vw - 32px);flex-wrap:wrap}
+#eb button{cursor:pointer;border:0;border-radius:30px;padding:6px 18px;font:inherit;background:var(--wine);color:#fff}
+#eb[hidden],#eb button[hidden],#lbx[hidden]{display:none}#em{font-size:.9rem;padding:0 8px}
+#lbx{position:fixed;inset:0;z-index:96;background:rgba(5,5,6,.93);display:grid;place-items:center;padding:20px;cursor:zoom-out}#lbx img{max-width:100%;max-height:100%;border-radius:10px}
+@media(max-width:780px){.ab{grid-template-columns:1fr}.pt{max-width:340px;margin:auto}}
+
+.hero small,.hero .sig{display:none}
+.hero .hl{display:inline-block;padding:4px 22px;border-radius:30px;font-size:1.05rem;color:#fff;margin-bottom:6px}
+.hero .ct{margin-top:-4vh}
+.hero .nm{font-family:Bar,Wil,serif;font-size:clamp(3.2rem,11vw,7.6rem);line-height:1.05;color:#F7F1E5;margin:.05em 0 4px;text-shadow:0 0 34px rgba(201,165,155,.4)}
+html[lang=en] .hero .nm{font-family:Wil,serif;font-size:clamp(3.4rem,12vw,8.4rem)}
+.hero .rl2{font-size:clamp(1.15rem,3vw,1.9rem);color:#DCCFC4;margin-bottom:26px}
+.hero .cvp{position:absolute;z-index:1;bottom:0;left:50%;transform:translateX(-50%);width:min(560px,74vw);height:78%;pointer-events:none}
+.hero .cvp.has{background-size:contain!important;background-position:50% 100%!important;background-repeat:no-repeat!important}
+.ed .hero .cvp{pointer-events:auto}.ed .hero .ct{pointer-events:none}.ed .hero .ct>*{pointer-events:auto}
+html[lang=ar] body{font-size:1.2rem}html[lang=ar] h1{font-weight:700}html[lang=ar] h2,html[lang=ar] h3{font-weight:700}
+.abx{background:#2B2024;color:#F7F1E5;padding:100px 0 110px}
+.abx .bl{position:absolute;z-index:-1;border-radius:50%;filter:blur(90px);animation:bl 12s ease-in-out infinite alternate}
+.abx .b1{width:46vw;height:46vw;background:#715459;opacity:.75;top:-10%;left:-8%}.abx .b2{width:42vw;height:42vw;background:#B98E62;opacity:.8;bottom:-12%;right:-6%}.abx .b3{width:44vw;height:44vw;background:#715459;opacity:.6;top:0;right:-10%}
+.big{font-size:clamp(5rem,22vw,16rem);line-height:.92;font-weight:600;background:linear-gradient(#F7F1E5 15%,rgba(255,255,255,.05) 92%);-webkit-background-clip:text;background-clip:text;color:transparent;margin:0}
