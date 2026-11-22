@@ -1,0 +1,20 @@
+html[lang=en] h1,html[lang=en] h2{font-family:Wil,Jost,serif}
+html[lang=en] h3{font-family:Rill,Jost,serif;font-size:1.7rem!important}
+.w{max-width:1120px;margin:auto;padding:0 22px}
+a{color:inherit;text-decoration:none}
+:focus-visible{outline:3px solid var(--rose);outline-offset:3px}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:20;background:var(--bg);border-bottom:1px solid var(--line)}
+header .w{display:flex;justify-content:space-between;align-items:center;height:62px;gap:14px}
+header nav{display:flex;gap:24px;font-size:.98rem}
+header nav a:hover{color:var(--ac)}
+.lg0{display:flex;align-items:center;gap:10px;font-size:1.3rem}.lg0 svg{width:30px;color:var(--ac)}
+html[lang=en] .lg0{font-family:Wil,serif;font-size:1.7rem}
+.lt{cursor:pointer;background:none;border:1px solid var(--ink);color:var(--ink);border-radius:30px;padding:2px 16px;font:inherit;transition:.25s}
+.lt:hover{background:var(--ink);color:var(--bg)}
+.cur{position:fixed;inset:0;z-index:99;background:var(--on);display:grid;place-items:center;animation:up .9s 2s cubic-bezier(.8,0,.2,1) forwards}
+.cur path,.cur circle{fill:none;stroke:var(--sil);stroke-width:5;stroke-linecap:round;stroke-dasharray:1;stroke-dashoffset:1;animation:dr 1.6s ease forwards}
+.cur path{stroke-width:8;animation-delay:.5s}
+@keyframes dr{to{stroke-dashoffset:0}}
+@keyframes up{to{transform:translateY(-101%);visibility:hidden}}
+.hero{--x:50%;--y:35%;position:relative;overflow:hidden;min-height:92vh;display:grid;place-items:center;text-align:center;color:#F7F1E5;background:radial-gradient(520px circle at var(--x) var(--y),rgba(201,165,155,.6),transparent 62%),var(--on);padding:70px 22px}
+.ring{position:absolute;border:1px solid rgba(201,165,155,.22);border-radius:50%;animation:sp 50s linear infinite}
