@@ -1,0 +1,20 @@
+@keyframes pl{to{box-shadow:0 0 .55em #fff,0 0 1.9em #C9A59B,inset 0 0 .6em #fff}}
+.hero .sig{font-family:Bar,Wil,serif;font-size:clamp(1.9rem,5.4vw,3.6rem);color:var(--rose);margin:-.5em 4% 6px 0;text-align:right;transform:rotate(-4deg);text-shadow:0 0 26px rgba(201,165,155,.6);line-height:1.2}
+html[lang=en] .hero .sig{font-family:Wil,serif;font-size:clamp(2.2rem,6vw,4rem)}
+.hero .waves{height:46%;opacity:.75}
+.about{padding:110px 0}
+.pap{--bg:#EEEEF0;--ink:#3A2A2F;--mute:#715459;--ac:#B98E62;--line:rgba(18,18,20,.18);--glow:rgba(255,255,255,.95);--glow2:rgba(201,165,155,.3);background:var(--bg);color:var(--ink)}
+.ab{display:grid;grid-template-columns:1.2fr 1fr;gap:56px;align-items:center}
+.ab h2{font-size:clamp(3.4rem,10vw,7.4rem);line-height:1;margin:0 0 8px}html[lang=en] .ab h2{font-family:Jost,sans-serif;font-weight:600}
+.ab .sg{display:inline-block;font-family:Bar,Wil,serif;color:var(--ac);font-size:2rem;transform:rotate(-4deg)}html[lang=en] .ab .sg{font-family:Wil,serif;font-size:2.8rem}
+.ab p{max-width:34em;margin:14px 0;color:var(--mute)}.ab p b{color:var(--ink);font-weight:500}
+.fc{display:flex;gap:12px;flex-wrap:wrap;margin-top:24px}.fc span{border:1px solid var(--ink);border-radius:30px;padding:3px 18px;font-size:.95rem}
+.pt{aspect-ratio:4/5;border-radius:240px 240px 26px 26px;overflow:hidden;background:linear-gradient(160deg,#E8DECE,#B98E62 85%);display:grid;place-items:center;color:#fff;box-shadow:0 0 0 8px #fff,0 0 0 9px var(--line),0 44px 70px -30px rgba(201,165,155,.75)}.pt svg{width:44%;opacity:.9}
+.has>*{visibility:hidden}.has{color:transparent!important}
+.gal{display:none;column-width:220px;column-gap:14px;margin-top:44px;direction:ltr}.gal.on{display:block}
+.gal figure{position:relative;break-inside:avoid;margin:0 0 14px;border-radius:14px;overflow:hidden;background:#2B2024;box-shadow:0 16px 30px -14px rgba(0,0,0,.6);cursor:zoom-in;transition:transform .3s}.gal figure:hover{transform:translateY(-6px) rotate(-.6deg)}
+.gal img{width:100%;display:block}
+.gal .x{position:absolute;top:8px;right:8px;display:none;width:30px;height:30px;border:0;border-radius:50%;background:var(--wine);color:#fff;font-size:1.2rem;cursor:pointer}.ed .gal .x{display:block}
+.gal .ad{width:100%;aspect-ratio:4/3;border:2px dashed var(--rose);border-radius:14px;background:none;color:var(--ac);font-size:2.6rem;cursor:pointer;margin-bottom:14px}
+.ed [data-i]{outline:2px dashed var(--rose);outline-offset:-4px;cursor:pointer}.ed [data-i]:hover{filter:brightness(1.25)}
+.ed .ar:hover,.ed .en:hover{outline:1px dashed var(--rose)}
